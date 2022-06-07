@@ -1,0 +1,80 @@
+/* -------------Responsive Moviles en vertical ------------ */
+
+
+/* -------------Responsive Moviles en horizontal & Tablets en vertical------------ */
+
+/* -------------Responsive Tablets en horizontal & Escritorios normales ------------ */
+  
+@media (min-width: 769px){
+    header{
+      font-size: 2.5rem;
+    }
+    main img{
+      left: 5%;
+      width: 30%;
+    }
+    main h1{
+      position: absolute;
+      left: 50%;
+      top: 15%;
+      font-size: 2rem;
+    }
+    main p{
+      position: absolute;
+      left: 50%;
+      top: 30%;
+      font-size: 1.5rem;
+    }
+    main a{
+      position: absolute;
+      left: 60%;
+      top: 70%;
+      padding: 2.5%;
+    }
+    footer{
+      margin-left: 2.5%;
+      margin-top: 22%;
+      text-align: left;
+    }
+    }
+    
+      /* -------------Responsive Tablets en horizontal & Escritorios normales ------------ */
+      
+    @media (min-width: 1440px) {
+    header{
+      font-size: 4rem;
+    }
+    main h1{
+      font-size: 3.5rem;
+    }
+    main p{
+      font-size: 2.5rem;
+    }
+    main a{
+      font-size: 1.5rem;
+    }
+    footer{
+      margin-top: 19%;
+    }
+    }
+    
+      /* -------------Responsive Escritorios grandes ------------ */
+      
+    @media (min-width: 2560px) {
+    header{
+      font-size: 6rem;
+    }
+    main h1{
+      font-size: 6rem;
+    }
+    main p{
+      font-size: 4rem;
+    }
+    main a{
+      font-size: 3rem;
+    }
+    footer{
+      margin-top: 22%;
+      font-size: 2rem;
+    }
+    }
