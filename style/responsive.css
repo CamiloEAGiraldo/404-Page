@@ -40,7 +40,7 @@
     
       /* -------------Responsive Tablets en horizontal & Escritorios normales ------------ */
       
-    @media (min-width: 1440px) {
+    @media (min-width: 1024px) {
     header{
       font-size: 4rem;
     }
@@ -57,10 +57,8 @@
       margin-top: 19%;
     }
     }
-    
       /* -------------Responsive Escritorios grandes ------------ */
-      
-    @media (min-width: 2560px) {
+    @media (min-width: 1440px) {
     header{
       font-size: 6rem;
     }
